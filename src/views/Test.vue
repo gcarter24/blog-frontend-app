@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="test">
     <h1>{{ message }}</h1>
   </div>
 </template>
@@ -12,7 +12,7 @@
 export default {
   data: function () {
     return {
-      message: "Welcome to Vue.js!",
+      message: "Welcome to Test Page!",
     };
   },
   created: function () {},
