@@ -2,7 +2,8 @@
   <div class="posts-index">
     <h1>{{ message }}</h1>
     <div v-for="post in posts" v-bind:key="post.id">
-      {{ post.title }}
+      <router-link v-bind:to="`/posts/${post.id}`">{{ post.title }}</router-link>
+
       <hr />
     </div>
   </div>
